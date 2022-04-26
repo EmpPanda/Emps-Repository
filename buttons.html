@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Styling Buttons and Links</title>
+		<link rel="stylesheet" href="styles.css"/>
+		<style>
+
+		a:hover {
+		  background-color: yellow;
+		}
+
+		a:visited {
+  color: orange;
+}
+
+a:active {
+  color: blue;
+}
+
+.success {background-color: #04AA6D;}
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}
+
+.anyStyle {background-color: #F89036; color: black;} /* Gray */
+.anyStyle:hover {background: #A69555;}
+
+		img:hover {
+  border-color: blue;
+}
+		img {
+  border: 5px solid #555;
+}
+
+		</style>
+	</head>
+	<body>
+		<h1>CSS: Styling Buttons and Links</h1>
+		<div>
+			<p>Practice your CSS skills by styling this webpage.</p>
+			<p>You will learn new CSS skills by reading about CSS techniques in the W3Schools CSS tutorial</p>
+		</div>
+		<div>
+			<h3>Hover Effects and Link Styles</h3>
+				<p>1. Add a hover effect to the link below (click the link to read about the hover effect).</p>
+				<a id="hoverLink" href="https://www.w3schools.com/csSref/sel_hover.asp" target="_blank">Make this link change color when you hover over it.</a>
+				<p>2. Style this link so that it is orange after the user has visited it.</p>
+				<a id="visitedLink" href="https://www.w3schools.com/css/css_link.asp" target="_blank">Click to learn how to make me orange after you've visited me.</a>
+				<p>3. Use the :active selector (described at the link above) to make the two links above purple the instant you click on them.</a>
+		</div>
+		<div>
+			<h3>Buttons</h3>
+			<p>Check out the <a href="https://www.w3schools.com/howto/howto_css_alert_buttons.asp" target="_blank">buttons tutorial</a> on W3Schools and apply styles to these buttons.</p>
+			<p>4. Make this a success button.</p>
+			<button class="btn success">SUCCESS</button>
+			<p>5. Make this a danger button.</p>
+			<button class="btn danger">DANGER</button>
+			<p>6. Make this an outline style info button.</p>
+			<button class="btn info">INFO</button>
+			<p>7. Find any sytle in the tutorial and apply it to this button.</p>
+			<button class="btn anyStyle">ANY STYLE</button>
+		<div>
+		<div>
+			<h3>Hover Effects and Images</h3>
+				<p>8. This image of Arches National Park is a link. Add a border described <a href="https://www.w3schools.com/howto/howto_css_border_image.asp" target="_blank">here</a> and then add a hover effect so the user knows that it's a link.</p>
+				<a href="https://en.wikipedia.org/wiki/Arches_National_Park"><img id="arches" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Delicatearch1.jpg/400px-Delicatearch1.jpg" alt="Image of Arches National Park"/></a>
+		</div>
+		<div>
+				<p>9. Pick one of the topics in the <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp" target="_blank">image tutorial</a> and see if you can make it apply to this image from Yellowstone National Park.</p>
+				<div id="imgContainer">
+					<img id="yellowstone" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Grand_Prismatic_Spring_and_Midway_Geyser_Basin_from_above.jpg/400px-Grand_Prismatic_Spring_and_Midway_Geyser_Basin_from_above.jpg" alt="Photo of Old Faithful at Yellowstone national park."/>
+					<div class="overlay">Yellowstone National Park</p>
+				</div<
+		</div>
+	</body>
+</html>
